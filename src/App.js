@@ -1,4 +1,8 @@
 import logo from './logo.svg';
+// import photo1 from './photo1.png';
+// import photo2 from './photo2.png';
+// import photo3 from './photo3.png';
+// import photo4 from './photo4.png';
 import './App.css';
 
 function App() {
@@ -6,18 +10,28 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={photo1} alt="hana-sunrise" /> */}
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          A family owned and operated organic farm, growing lush tropical fruit
+          and exotic spices on the verdant slope of Maui's Haleakala volcano
+          ("House of the sun")
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      {/* <img src={photo2} alt="passion-fruit-flower" /> */}
+      <a class="App-link" href="/about">
+        LEARN MORE ABOUT US
+      </a>
+      {/* <img src={photo3} alt="lemon" /> */}
+      {/* <img src={photo4} alt="farm-mascot" /> */}
+      <p className="quote">
+        <i>
+          "Farmers are the "itellectuals of the land". They have the practical
+          and rarefied knowledge to choose just the right seeds for a particular
+          place to plant them in the most advantageous way, and then tend the
+          plants and bring them to their perfect moement of ripeness".
+        </i>
+        -Carlo Petrini, founder of the slow food movement.
+      </p>
     </div>
   );
 }
