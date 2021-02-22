@@ -4,6 +4,8 @@ import logo from './logo.svg';
 // import photo3 from './photo3.png';
 // import photo4 from './photo4.png';
 import './App.css';
+import { HashRouter as Router, Route, NavLink, Redirect} from 'react-router-dom';
+// import About from '../components/About';
 
 function App() {
   return (
@@ -18,9 +20,12 @@ function App() {
         </p>
       </header>
       {/* <img src={photo2} alt="passion-fruit-flower" /> */}
-      <a class="App-link" href="/about">
-        LEARN MORE ABOUT US
-      </a>
+      <Router>
+        <NavLink exact to="/about">
+          LEARN MORE ABOUT US
+        </NavLink>
+        {/* <Route path="/about" exact render={<About />} */}
+      </Router>
       {/* <img src={photo3} alt="lemon" /> */}
       {/* <img src={photo4} alt="farm-mascot" /> */}
       <p className="quote">
