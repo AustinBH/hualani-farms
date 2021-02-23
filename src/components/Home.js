@@ -2,9 +2,7 @@ import photo1 from '../media/photo1.jpg';
 import photo2 from "../media/photo2.jpg";
 import photo3 from "../media/photo3.jpg";
 import photo4 from "../media/photo4.jpg";
-import {
-  NavLink
-} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Home() {
   return (
