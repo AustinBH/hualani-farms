@@ -1,7 +1,7 @@
-// import photo1 from './photo1.png';
-// import photo2 from './photo2.png';
-// import photo3 from './photo3.png';
-// import photo4 from './photo4.png';
+import photo1 from '../media/photo1.jpg';
+import photo2 from "../media/photo2.jpg";
+import photo3 from "../media/photo3.jpg";
+import photo4 from "../media/photo4.jpg";
 import {
   NavLink
 } from "react-router-dom";
@@ -9,18 +9,18 @@ import {
 function Home() {
   return (
     <div className="Home">
-      {/* <img src={photo1} alt="hana-sunrise" /> */}
+      <img src={photo1} alt="hana-sunrise" />
       <p>
         A family owned and operated organic farm, growing lush tropical fruit
         and exotic spices on the verdant slope of Maui's Haleakala volcano
         ("House of the sun")
       </p>
-      {/* <img src={photo2} alt="passion-fruit-flower" /> */}
+      <img src={photo2} alt="passion-fruit-flower" />
       <NavLink exact to="/about">
         LEARN MORE ABOUT US
       </NavLink>
-      {/* <img src={photo3} alt="lemon" /> */}
-      {/* <img src={photo4} alt="farm-mascot" /> */}
+      <img src={photo3} alt="lemon" />
+      <img src={photo4} alt="farm-mascot" />
       <p className="quote">
         <i>
           "Farmers are the "itellectuals of the land". They have the practical
