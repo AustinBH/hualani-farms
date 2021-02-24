@@ -8,6 +8,7 @@ import Future from './components/Future';
 import Preorder from './components/Preorder';
 import Navbar from './components/Navbar';
 import Contact from './components/Contact';
+import Packaging from './components/Packaging';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/future" exact render={() => <Future />} />
             <Route path="/preorder" exact render={() => <Preorder />} />
             <Route path="/contact" exact render={() => <Contact />} />
+            <Route path="/packaging" exact render={() => <Packaging />} />
           </div>
         </Router>
     </div>
