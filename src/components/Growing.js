@@ -7,6 +7,9 @@ import photo16 from "../media/photo16.jpg";
 import photo17 from "../media/photo17.jpg";
 import photo18 from "../media/photo18.jpg";
 import photo19 from "../media/photo19.jpg";
+import photo20 from "../media/photo20.jpg";
+import photo21 from "../media/photo21.jpg";
+import photo22 from "../media/photo22.jpg";
 import { NavLink } from "react-router-dom";
 
 function Growing() {
@@ -74,6 +77,36 @@ function Growing() {
         fragile island environment allowing us to care for the land and still
         sustainably feed our communities?"
       </p>
+      <img src={photo20} alt="hana-sunrise" />
+      <NavLink exact to="/contact">
+        WHERE TO FIND US
+      </NavLink>
+      <p>
+        Hualani Farms is a proud member of the
+        <a
+          href="https://www.hfuuhi.org"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Hawaii Farmers Union United
+        </a>{" "}
+        ("HFUU"), Hāna Chapter. You can find us at the Hāna Farmers Market,
+        every Friday from 3:00 - 5:00 pm, located across from the Hasegawa
+        General Store, in the field below the Hāna Ranch Restaurant. Come out to
+        the Hāna Farmers Market to support Hāna's hard-working local farmers.
+      </p>
+      <img src={photo21} alt="farmers-market" />
+      <NavLink exact to="/preorder">
+        HEAVENLY HUALANI BODY BUTTER: PREORDER ONLINE NOW
+      </NavLink>
+      <p>
+        Hualani Farms produces a luxurious calendula whipped body butter.
+        Handcrafted in small batches, using only pure local ingredients of
+        impeccable quality, using a carbon-neutral production process powered by
+        the warm Maui sun and fresh Hāna rain water that undergoes a triple
+        filtration process to ensure a pure, beatiful product made with aloha.
+      </p>
+      <img src={photo22} alt="calendula-oil" />
     </div>
   );
 }
