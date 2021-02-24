@@ -67,9 +67,11 @@ function Growing() {
         For the Butterflies and the Bees: Citrus Blossom, Red Sunflower,
         Zinnias, and Cosmos
       </p>
-      <NavLink exact to="/future">
-        WHAT WE ARE GROWING FOR THE FUTURE
-      </NavLink>
+      <button>
+        <NavLink exact to="/future">
+          WHAT WE ARE GROWING FOR THE FUTURE
+        </NavLink>
+      </button>
       <p>
         Every morning as the sun rises over the mighty Pacific Ocean to greet
         the rich soil on our farm, we are asking ourselves the question "How can
@@ -79,11 +81,13 @@ function Growing() {
       </p>
       <img src={photo20} alt="hana-sunrise" />
       <p></p> {/* Bandaid need to properly space this later */}
-      <NavLink exact to="/contact">
-        WHERE TO FIND US
-      </NavLink>
+      <button>
+        <NavLink exact to="/contact">
+          WHERE TO FIND US
+        </NavLink>
+      </button>
       <p>
-        Hualani Farms is a proud member of the {" "}
+        Hualani Farms is a proud member of the{" "}
         <a
           href="https://www.hfuuhi.org"
           rel="noopener noreferrer"

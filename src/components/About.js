@@ -30,9 +30,11 @@ function About() {
           citrus, spices, vegetables, and herbs in some of the richest volcanic
           soil available on the planet.
         </p>
-        <NavLink exact to="/farming">
-          FARMING IN HARMONY WITH NATURE
-        </NavLink>
+        <button>
+          <NavLink exact to="/farming">
+            FARMING IN HARMONY WITH NATURE
+          </NavLink>
+        </button>
       </div>
     );
 };

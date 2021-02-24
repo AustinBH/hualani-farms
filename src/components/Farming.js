@@ -25,9 +25,11 @@ function Farming() {
         Every plant grown on our farm is grown and nurtured with love and
         respect for the aina ("land").
       </p>
-      <NavLink exact to="/growing">
-        What's Growing Now
-      </NavLink>
+      <button>
+        <NavLink exact to="/growing">
+          What's Growing Now
+        </NavLink>
+      </button>
     </div>
   );
 }

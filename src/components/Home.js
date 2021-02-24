@@ -15,9 +15,11 @@ function Home() {
       </p>
       <img src={photo2} alt="passion-fruit-flower" />
       <p></p> {/* Bandaid need to properly space this later */}
-      <NavLink exact to="/about">
-        LEARN MORE ABOUT US
-      </NavLink>
+      <button>
+        <NavLink exact to="/about">
+          LEARN MORE ABOUT US
+        </NavLink>
+      </button>
       <p></p> {/* Bandaid need to properly space this later */}
       <img src={photo3} alt="lemon" />
       <img src={photo4} alt="farm-mascot" />
