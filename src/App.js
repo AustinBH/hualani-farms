@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter as Router, Route, NavLink, Redirect} from 'react-router-dom';
+import { HashRouter as Router, Route} from 'react-router-dom';
 import About from './components/About';
 import Home from './components/Home';
 import Farming from './components/Farming';
