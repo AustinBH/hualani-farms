@@ -102,9 +102,11 @@ function Growing() {
       </p>
       <img src={photo21} alt="farmers-market" />
       <p></p> {/* Bandaid need to properly space this later */}
-      <NavLink exact to="/preorder">
-        HEAVENLY HUALANI BODY BUTTER: PREORDER ONLINE NOW
-      </NavLink>
+      <button>
+        <NavLink exact to="/preorder">
+          HEAVENLY HUALANI BODY BUTTER: PREORDER ONLINE NOW
+        </NavLink>
+      </button>
       <p>
         Hualani Farms produces a luxurious calendula whipped body butter.
         Handcrafted in small batches, using only pure local ingredients of
