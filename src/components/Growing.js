@@ -27,7 +27,7 @@ function Growing() {
       <img src={photo12} alt="honey-tangerines" />
       <img src={photo13} alt="washtub-tangelos" />
       <p>
-        <u>Avocado Varietals</u> such as Malana, Ota, Yamagata and Kahalu'u.
+        <u>Avocado Varietals</u> such as Malana, Ota, Yamagata, and Kahalu'u.
       </p>
       <img src={photo14} alt="avocado-half" />
       <p>
@@ -44,7 +44,7 @@ function Growing() {
       <p>
         <u>Other Trees and Varietals</u> - Maia (Apple Bananas), Sunrise Papaya,
         Mango, several varietals of Coco Palms and Coconuts, Rinbow Eucalyptus,
-        varietals of Baboo - Gracilius, Monastery and Malay Dwarf.
+        varietals of Bamboo - Gracilius, Monastery and Malay Dwarf.
       </p>
       <img src={photo16} alt="banana-rack" />
       <img src={photo17} alt="buddha" />
@@ -54,7 +54,7 @@ function Growing() {
         <p>
           Vegatables: Mizuna, Eggplant, Red Chard, Spinach, Peppers (Jalapeño,
           Habanero, Hawaiian Chili Peppers), Kale, Tomates, Leeks, Arugula,
-          Tomatillo, Ple Beans, and Strawberries!
+          Tomatillo, Pole Beans, and Strawberries!
         </p>
       </p>
       <img src={photo19} alt="strawberries" />
@@ -78,11 +78,12 @@ function Growing() {
         sustainably feed our communities?"
       </p>
       <img src={photo20} alt="hana-sunrise" />
+      <p></p> {/* Bandaid need to properly space this later */}
       <NavLink exact to="/contact">
         WHERE TO FIND US
       </NavLink>
       <p>
-        Hualani Farms is a proud member of the
+        Hualani Farms is a proud member of the {" "}
         <a
           href="https://www.hfuuhi.org"
           rel="noopener noreferrer"
@@ -96,6 +97,7 @@ function Growing() {
         the Hāna Farmers Market to support Hāna's hard-working local farmers.
       </p>
       <img src={photo21} alt="farmers-market" />
+      <p></p> {/* Bandaid need to properly space this later */}
       <NavLink exact to="/preorder">
         HEAVENLY HUALANI BODY BUTTER: PREORDER ONLINE NOW
       </NavLink>
