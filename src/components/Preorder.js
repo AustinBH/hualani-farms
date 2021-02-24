@@ -1,7 +1,7 @@
 function Preorder() {
   return (
     <div>
-      <header>Hualani Nourishing Body Butter</header>
+      <h1>Hualani Nourishing Body Butter</h1>
       <p>
         Ingredients:
         <ul style={{ textAlign: "left" }}>

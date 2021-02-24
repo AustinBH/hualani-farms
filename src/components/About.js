@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 function About() {
     return (
       <div>
-        <header>Who We Are</header>
+        <h1>Who We Are</h1>
         <p>
           Hualani Farms is a family owned organic farm in Maka'alae, on the
           verdant slope of Haleakala (Maui's "House of the Sun") surrounded by

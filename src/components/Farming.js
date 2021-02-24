@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 function Farming() {
   return (
     <div>
-      <header>Farming in Harmony With Nature</header>
+      <h1>Farming in Harmony With Nature</h1>
       <p>
         Nurtured by the gentle, tropical Hāna rain, refreshed by the gentle
         ocean breeze, and warmed by the Maui sunshine, Hualani Farms produces

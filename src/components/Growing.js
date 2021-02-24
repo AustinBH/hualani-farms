@@ -15,7 +15,7 @@ import { NavLink } from "react-router-dom";
 function Growing() {
   return (
     <div>
-      <header>What's Growing Now</header>
+      <h1>What's Growing Now</h1>
       <p>
         Nurtured by the gentle, tropical Hāna rain, refreshed by the gentle
         ocean breeze, and warmed by the Maui sunshine, Hualani Farms produces
