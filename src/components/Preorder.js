@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 function Preorder() {
   return (
     <div>
@@ -19,6 +21,11 @@ function Preorder() {
         butters are best suited to skin that tends to be dry and that needs
         protection and nourishment.
       </p>
+      <button>
+        <NavLink exact to="/packaging">
+          Check out our environmentally intelligent packaging
+        </NavLink>
+      </button>
       <p>Wellness properties:</p>
       <p>
         Marigold Flowers - have soothing, softening and emollient properties. Is
