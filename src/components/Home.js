@@ -11,7 +11,7 @@ function Home() {
       <p>
         A family owned and operated organic farm, growing lush tropical fruit
         and exotic spices on the verdant slope of Maui's Haleakala volcano
-        ("House of the sun")
+        ("House of the sun").
       </p>
       <img src={photo2} alt="passion-fruit-flower" />
       <p></p> {/* Bandaid need to properly space this later */}
@@ -25,7 +25,7 @@ function Home() {
       <img src={photo4} alt="farm-mascot" />
       <p className="quote">
         <i>
-          "Farmers are the "itellectuals of the land". They have the practical
+          "Farmers are the "intellectuals of the land". They have the practical
           and rarefied knowledge to choose just the right seeds for a particular
           place to plant them in the most advantageous way, and then tend the
           plants and bring them to their perfect moement of ripeness".

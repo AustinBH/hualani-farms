@@ -12,7 +12,7 @@ function About() {
           verdant slope of Haleakala (Maui's "House of the Sun") surrounded by
           the boundless beauty of the Pacific Ocean. Located approximately 3
           miles south of Hāna, Maui, at the culmination of one of the most
-          breath taking views on Planet Earth, the famous Hāna Highway, a
+          breathtaking views on Planet Earth, the famous Hāna Highway, a
           stunningly beautiful journey along 52 miles of winding road following
           the rugged Hāna coastline, passing 617 hairpin curves, 59 one lane
           bridges, bamboo forests and 10 unbelievable waterfalls, about 1/4 mile
