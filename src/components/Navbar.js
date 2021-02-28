@@ -8,12 +8,12 @@ function Navbar() {
         <img src={logo} alt="logo" />
       </NavLink>
       <div className="links">
-        <button>
+        <button className="nav-button">
           <NavLink exact to="/about">
             About
           </NavLink>
         </button>
-        <button>
+        <button className="nav-button">
           <NavLink exact to="/contact">
             Contact Us
           </NavLink>

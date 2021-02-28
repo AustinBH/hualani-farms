@@ -6,8 +6,21 @@ import { NavLink } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="Home">
-      <img src={photo1} alt="hana-sunrise" />
+    <div>
+      <p className="quote">
+        <i>
+          "Farmers are the "intellectuals of the land". They have the practical
+          and rarefied knowledge to choose just the right seeds for a particular
+          place to plant them in the most advantageous way, and then tend the
+          plants and bring them to their perfect moment of ripeness".
+        </i>
+        -Carlo Petrini, founder of the slow food movement.
+      </p>
+      <div className="nav-quotes">
+        EARTH SKY
+        <img src={photo1} alt="hana-sunrise" className="single-photo" />
+        OCEAN RAIN
+      </div>
       <p>
         A family owned and operated organic farm, growing lush tropical fruit
         and exotic spices on the verdant slope of Maui's Haleakala volcano
@@ -15,7 +28,7 @@ function Home() {
       </p>
       <img src={photo2} alt="passion-fruit-flower" />
       <p></p> {/* Bandaid need to properly space this later */}
-      <button>
+      <button className="nav-button">
         <NavLink exact to="/about">
           LEARN MORE ABOUT US
         </NavLink>
@@ -23,15 +36,6 @@ function Home() {
       <p></p> {/* Bandaid need to properly space this later */}
       <img src={photo3} alt="lemon" />
       <img src={photo4} alt="farm-mascot" />
-      <p className="quote">
-        <i>
-          "Farmers are the "intellectuals of the land". They have the practical
-          and rarefied knowledge to choose just the right seeds for a particular
-          place to plant them in the most advantageous way, and then tend the
-          plants and bring them to their perfect moement of ripeness".
-        </i>
-        -Carlo Petrini, founder of the slow food movement.
-      </p>
     </div>
   );
 }

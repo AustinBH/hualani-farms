@@ -67,7 +67,7 @@ function Growing() {
         For the Butterflies and the Bees: Citrus Blossom, Red Sunflower,
         Zinnias, and Cosmos
       </p>
-      <button>
+      <button className="nav-button">
         <NavLink exact to="/future">
           WHAT WE ARE GROWING FOR THE FUTURE
         </NavLink>
@@ -81,7 +81,7 @@ function Growing() {
       </p>
       <img src={photo20} alt="hana-sunrise" />
       <p></p> {/* Bandaid need to properly space this later */}
-      <button>
+      <button className="nav-button">
         <NavLink exact to="/contact">
           WHERE TO FIND US
         </NavLink>
@@ -102,7 +102,7 @@ function Growing() {
       </p>
       <img src={photo21} alt="farmers-market" />
       <p></p> {/* Bandaid need to properly space this later */}
-      <button>
+      <button className="nav-button">
         <NavLink exact to="/preorder">
           HEAVENLY HUALANI BODY BUTTER: PREORDER ONLINE NOW
         </NavLink>

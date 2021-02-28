@@ -21,7 +21,7 @@ function Preorder() {
         butters are best suited to skin that tends to be dry and that needs
         protection and nourishment.
       </p>
-      <button>
+      <button className="nav-button">
         <NavLink exact to="/packaging">
           Check out our environmentally intelligent packaging
         </NavLink>

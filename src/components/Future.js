@@ -1,11 +1,8 @@
-
-
 function Future() {
+
   return (
     <div>
-      <p>
-        We doing stuff don't worry bout it.
-      </p>
+      <p>There is no content here </p>
     </div>
   );
 }

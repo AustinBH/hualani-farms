@@ -30,7 +30,7 @@ function About() {
           citrus, spices, vegetables, and herbs in some of the richest volcanic
           soil available on the planet.
         </p>
-        <button>
+        <button className="nav-button">
           <NavLink exact to="/farming">
             FARMING IN HARMONY WITH NATURE
           </NavLink>
