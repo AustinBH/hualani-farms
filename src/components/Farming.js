@@ -14,8 +14,10 @@ function Farming() {
         intelligent processes to ensure not only a beatiful harvest today, but a
         healthy and sustainable yield well into the future
       </p>
-      <img src={photo8} alt="meyer-lemon-blossoms" />
-      <img src={photo9} alt="blue-butterfly-pea-flower" />
+      <div className="two-grid">
+        <img src={photo8} alt="meyer-lemon-blossoms"/>
+        <img src={photo9} alt="blue-butterfly-pea-flower" />
+      </div>
       <p>
         The future of food is about the soil, about community, nutrition,
         wildlife, education, and collaboration.

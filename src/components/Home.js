@@ -8,16 +8,19 @@ function Home() {
   return (
     <div>
       <div className="nav-quotes">
-        <text className="earth">EARTH</text>
-        <text className="sky">SKY</text>
+        <p className="earth">EARTH</p>
+        <p className="sky">SKY</p>
         <img src={photo1} alt="hana-sunrise" className="single-photo" />
-        <text className="ocean">OCEAN</text>
-        <text className="rain">RAIN</text>
+        <p className="ocean">OCEAN</p>
+        <p className="rain">RAIN</p>
       </div>
       <p>
         A family owned and operated organic farm, growing lush tropical fruit
         and exotic spices on the verdant slope of Maui's Haleakala volcano
-        ("House of the Sun").
+        ("House of the Sun"). "Hualani" means Heavenly Fruit in Hawaiian. THe
+        perfect combination of rich earth ("aina"), boundless sky ("lani"),
+        ocean breeze ("malanai"), and abundant Hāna rain creates the idea
+        growing conditions to produce and share the bounty of our farm.
       </p>
       <img src={photo2} alt="passion-fruit-flower" />
       <p className="quote">
@@ -34,9 +37,10 @@ function Home() {
           LEARN MORE ABOUT US
         </NavLink>
       </button>
-      <p></p> {/* Bandaid need to properly space this later */}
-      <img src={photo3} alt="lemon" />
-      <img src={photo4} alt="farm-mascot" />
+      <div className="two-grid">
+        <img src={photo3} alt="lemon" />
+        <img src={photo4} alt="farm-mascot" />
+      </div>
     </div>
   );
 }

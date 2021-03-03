@@ -26,6 +26,9 @@ function App() {
             <Route path="/packaging" exact render={() => <Packaging />} />
           </div>
         </Router>
+        <p className="quote">
+          © 2021 Hualani Farms
+        </p>
     </div>
   );
 }

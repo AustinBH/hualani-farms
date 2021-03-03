@@ -17,23 +17,33 @@ function Growing() {
     <div>
       <h1>What's Growing Now</h1>
       <p>
-        Nurtured by the gentle, tropical Hāna rain, refreshed by the gentle
-        ocean breeze, and warmed by the Maui sunshine, Hualani Farms produces
-        all of its tropical fruit, spices, and plants using environmentally
-        intelligent processes to ensure not only a beatiful harvest today, but a
-        healthy and sustainable yield well into the future
+        Our citrus orchard contains Honey Tangerines, Eureka and Meyer Lemons,
+        Tangelos, Pink Grapefruit, and four varietals of lime including Tahitian
+        Lime, Keffir Lime, Calamoadin Lime, and the Citrus Australasica ("finger
+        limes").
       </p>
-      <img src={photo11} alt="citrus-metal" />
-      <img src={photo12} alt="honey-tangerines" />
-      <img src={photo13} alt="washtub-tangelos" />
+      <div className="three-grid">
+        <img src={photo11} alt="citrus-metal" />
+        <img src={photo12} alt="honey-tangerines" />
+        <img src={photo13} alt="washtub-tangelos" />
+      </div>
       <p>
         <u>Avocado Varietals</u> such as Malana, Ota, Yamagata, and Kahalu'u.
       </p>
       <img src={photo14} alt="avocado-half" />
       <p>
-        <u>Exotics/Spices</u> such as Nutmeg, Cinnamon, Cardamom, Ginger,
-        Turmeric (Olena), Soursoup, Surinam Cherry, Lilikoi (Passion Fruit),
-        Butterfly Pea Flower Vine, and Magnolia.
+        <u>Exotics/Spices</u> such as Nutmeg, Cinnamon, Cardamom, and the
+        vanilla bean orchid, a beatiful vine that produces the tasty vanilla
+        bean much coveted by bakers. At Hualani Farms you will also find Ginger,
+        Turmeric (Olena), Soursoup, Surinam Cherry, Lilikoi (Passion Fruit),{" "}
+        <a
+          href="https://food.ndtv.com/weight-loss/blue-tea-all-you-need-to-know-about-this-herbal-tea-that-may-help-in-weight-loss-1957747"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Butterfly Pea Flower Vine
+        </a>
+        .
       </p>
       <img src={photo15} alt="lilikoi-flower" />
       <p>
@@ -43,14 +53,15 @@ function Growing() {
       </p>
       <p>
         <u>Other Trees and Varietals</u> - Maia (Apple Bananas), Sunrise Papaya,
-        Mango, several varietals of Coco Palms and Coconuts, Rinbow Eucalyptus,
-        varietals of Bamboo - Gracilius, Monastery and Malay Dwarf.
+        Mango, several varietals of Coco Palms and Coconuts, the majestic
+        Rainbow Eucalyptus, Magnolia, and several varietals of Bamboo -
+        Gracilius, Monastery and Malay Dwarf.
       </p>
       <img src={photo16} alt="banana-rack" />
       <img src={photo17} alt="buddha" />
       <img src={photo18} alt="awapuhi-ginger" />
       <p>
-        <u>What's Growing in the Garden Now?</u>
+        <u>What's Growing in Our Garden?</u>
         <p>
           Vegatables: Mizuna, Eggplant, Red Chard, Spinach, Peppers (Jalapeño,
           Habanero, Hawaiian Chili Peppers), Kale, Tomates, Leeks, Arugula,
@@ -72,49 +83,6 @@ function Growing() {
           WHAT WE ARE GROWING FOR THE FUTURE
         </NavLink>
       </button>
-      <p>
-        Every morning as the sun rises over the mighty Pacific Ocean to greet
-        the rich soil on our farm, we are asking ourselves the question "How can
-        we farm ethically in a manner that places the lightest impact on our
-        fragile island environment allowing us to care for the land and still
-        sustainably feed our communities?"
-      </p>
-      <img src={photo20} alt="hana-sunrise" />
-      <p></p> {/* Bandaid need to properly space this later */}
-      <button className="nav-button">
-        <NavLink exact to="/contact">
-          WHERE TO FIND US
-        </NavLink>
-      </button>
-      <p>
-        Hualani Farms is a proud member of the{" "}
-        <a
-          href="https://www.hfuuhi.org"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Hawaii Farmers Union United
-        </a>{" "}
-        ("HFUU"), Hāna Chapter. You can find us at the Hāna Farmers Market,
-        every Friday from 3:00 - 5:00 pm, located across from the Hasegawa
-        General Store, in the field below the Hāna Ranch Restaurant. Come out to
-        the Hāna Farmers Market to support Hāna's hard-working local farmers.
-      </p>
-      <img src={photo21} alt="farmers-market" />
-      <p></p> {/* Bandaid need to properly space this later */}
-      <button className="nav-button">
-        <NavLink exact to="/preorder">
-          HEAVENLY HUALANI BODY BUTTER: PREORDER ONLINE NOW
-        </NavLink>
-      </button>
-      <p>
-        Hualani Farms produces a luxurious calendula whipped body butter.
-        Handcrafted in small batches, using only pure local ingredients of
-        impeccable quality, using a carbon-neutral production process powered by
-        the warm Maui sun and fresh Hāna rain water that undergoes a triple
-        filtration process to ensure a pure, beatiful product made with aloha.
-      </p>
-      <img src={photo22} alt="calendula-oil" />
     </div>
   );
 }

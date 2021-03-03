@@ -4,9 +4,11 @@ import { NavLink } from 'react-router-dom';
 function Navbar() {
   return (
     <div className="navbar">
-      <NavLink exact to="/">
-        <img src={logo} alt="logo" />
-      </NavLink>
+      <div className="logo">
+        <NavLink exact to="/">
+          <img src={logo} alt="logo" />
+        </NavLink>
+      </div>
       <div className="links">
         <button className="nav-button">
           <NavLink exact to="/about">

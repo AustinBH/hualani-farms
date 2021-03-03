@@ -9,16 +9,14 @@ function Packaging() {
       <p>
         Hualani Farms uses only glass packaging, which costs more than plastic,
         but is our way of not contributing further to the environmental
-        degredation of our Pacific marine environment and the build up of
+        destruction of our Pacific marine environment and the build up of
         plastic waste in our oceans, threatening to irreparably damage healthy
         oceans and coral reefs.
       </p>
       <img src={photo23} alt="koki-beach" />
       <p>
-        All of our packaging is recycleable and renewable because we refuse to
-        contribute more plastic waste that ends up in our beautiful Pacific
-        Ocean. We use shipping boxes and materials made from 100% recycled
-        post-consumer materials.
+        All of our packaging is recycleable and renewable. We use shipping boxes
+        and materials made from 100% recycled post-consumer materials.
       </p>
       <img src={photo24} alt="buddha-with-lemons" />
       <p>

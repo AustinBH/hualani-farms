@@ -10,25 +10,28 @@ function About() {
         <p>
           Hualani Farms is a family owned organic farm in Maka'alae, on the
           verdant slope of Haleakala (Maui's "House of the Sun") surrounded by
-          the boundless beauty of the Pacific Ocean. Located approximately 3
-          miles south of Hāna, Maui, at the culmination of one of the most
-          breathtaking views on Planet Earth, the famous Hāna Highway, a
-          stunningly beautiful journey along 52 miles of winding road following
-          the rugged Hāna coastline, passing 617 hairpin curves, 59 one lane
-          bridges, bamboo forests and 10 unbelievable waterfalls, about 1/4 mile
-          up mauka (mountainside) on a road best travelled by Jeep or 4WD,
+          the boundless beauty of the Pacific Ocean, located approximately 3
+          miles south of Hāna, Maui, our farm lies at the culmination of one of
+          the most breathtaking drives to experience on Planet Earth, along the
+          famous Hāna Highway, a stunningly beautiful journey of 52 miles of
+          winding road following the rugged Hāna coastline, with 617 hairpin
+          curves, 59 one lane bridges, bamboo forests, and 10 unbelievable
+          waterfalls. At the end of the journey our farm lies about 1/4 mile up
+          mauka (mountainside) on a road best travelled by Jeep or 4WD,
           preferably already covered in mud.
         </p>
-        <img src={photo5} alt="gushing-waterfall" />
-        <img src={photo6} alt="double-rainbow" />
-        <img src={photo7} alt="big-island" />
+        <div className="three-grid">
+          <img src={photo5} alt="gushing-waterfall" />
+          <img src={photo6} alt="double-rainbow" />
+          <img src={photo7} alt="big-island" />
+        </div>
         <p>
           We maintain a personal commitment to a carbon neutral 100% sustainable
-          farm model Our farm is completely "off the grid". We obtain all our
-          power from the vibrant Maui sunshine, water from the pure and
+          farm model. Our farm is completely "off the grid". We obtain all our
+          power from the Maui sunshine, and all our water from the pure and
           nourishing Hāna rain, allowing us to sustainably grow and harvest
           citrus, spices, vegetables, and herbs in some of the richest volcanic
-          soil available on the planet.
+          soil available on the planet, with minimal impact on the earth.
         </p>
         <button className="nav-button">
           <NavLink exact to="/farming">
