@@ -7,6 +7,19 @@ import { NavLink } from "react-router-dom";
 function Home() {
   return (
     <div>
+      <div className="nav-quotes">
+        <text className="earth">EARTH</text>
+        <text className="sky">SKY</text>
+        <img src={photo1} alt="hana-sunrise" className="single-photo" />
+        <text className="ocean">OCEAN</text>
+        <text className="rain">RAIN</text>
+      </div>
+      <p>
+        A family owned and operated organic farm, growing lush tropical fruit
+        and exotic spices on the verdant slope of Maui's Haleakala volcano
+        ("House of the Sun").
+      </p>
+      <img src={photo2} alt="passion-fruit-flower" />
       <p className="quote">
         <i>
           "Farmers are the "intellectuals of the land". They have the practical
@@ -14,20 +27,8 @@ function Home() {
           place to plant them in the most advantageous way, and then tend the
           plants and bring them to their perfect moment of ripeness".
         </i>
-        -Carlo Petrini, founder of the slow food movement.
+        -Carlo Petrini, founder of the Slow Food Movement.
       </p>
-      <div className="nav-quotes">
-        EARTH SKY
-        <img src={photo1} alt="hana-sunrise" className="single-photo" />
-        OCEAN RAIN
-      </div>
-      <p>
-        A family owned and operated organic farm, growing lush tropical fruit
-        and exotic spices on the verdant slope of Maui's Haleakala volcano
-        ("House of the sun").
-      </p>
-      <img src={photo2} alt="passion-fruit-flower" />
-      <p></p> {/* Bandaid need to properly space this later */}
       <button className="nav-button">
         <NavLink exact to="/about">
           LEARN MORE ABOUT US
