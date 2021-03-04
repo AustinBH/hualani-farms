@@ -7,9 +7,6 @@ import { NavLink } from "react-router-dom";
 function Home() {
   return (
     <div>
-      <div className="nav-quotes">
-        <img src={photo1} alt="hana-sunrise" className="single-photo" />
-      </div>
       <p>
         A family owned and operated organic farm, growing lush tropical fruit
         and exotic spices on the verdant slope of Maui's Haleakala volcano
@@ -18,6 +15,7 @@ function Home() {
         ocean breeze ("malanai"), and abundant Hāna rain creates the ideal
         growing conditions to produce and share the bounty of our farm.
       </p>
+      <img src={photo1} alt="hana-sunrise" className="single-photo" />
       <div className="two-grid">
         <img src={photo3} alt="lemon" />
         <img src={photo2} alt="passion-fruit-flower" />
@@ -38,7 +36,7 @@ function Home() {
       </button>
       <p></p> {/* Bandaid for now adjust later */}
       <img src={photo4} alt="farm-mascot" />
-      <p>Meet Fritz our farm mascot</p>
+      <p>Fritz, farm mascot</p>
     </div>
   );
 }

@@ -33,7 +33,7 @@ function Growing() {
       <img src={photo14} alt="avocado-half" />
       <p>
         <u>Exotics/Spices</u> such as Nutmeg, Cinnamon, Cardamom, and the
-        Vanilla Bean Orchid, a beatiful vine that produces the tasty vanilla
+        Vanilla Bean Orchid, a beautiful vine that produces the tasty vanilla
         bean much coveted by bakers. At Hualani Farms you will also find Ginger,
         Turmeric (Olena), Soursoup, Surinam Cherry, Lilikoi (Passion Fruit),{" "}
         <a
