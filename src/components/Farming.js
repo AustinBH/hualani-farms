@@ -11,8 +11,8 @@ function Farming() {
         Nurtured by the gentle, tropical Hāna rain, refreshed by the gentle
         ocean breeze, and warmed by the Maui sunshine, Hualani Farms produces
         all of its tropical fruit, spices, and plants using environmentally
-        intelligent processes to ensure not only a beatiful harvest today, but a
-        healthy and sustainable yield well into the future
+        intelligent processes to ensure not only a beautiful harvest today, but a
+        healthy and sustainable yield well into the future.
       </p>
       <div className="two-grid">
         <img src={photo8} alt="meyer-lemon-blossoms"/>

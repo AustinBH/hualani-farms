@@ -16,6 +16,7 @@ function Future() {
         sustainably feed our communities?"
       </p>
       <img src={photo20} alt="hana-sunrise" className="single-photo" />
+      <p></p> {/* Bandaid needs more elegant fix */}
       <button className="nav-button">
         <NavLink exact to="/contact">
           WHERE TO FIND US
@@ -57,7 +58,7 @@ function Future() {
         ingredients of impeccable quality. We use a carbon-neutral production
         process powered by the warm Maui sun. Our wild crafted marigold oil used
         in our body butter is made in small batches and undergoes a month long
-        triple filtration process to ensure a pure, beatiful product made with
+        triple filtration process to ensure a pure, beautiful product made with
         aloha.
       </p>
       <img src={photo22} alt="calendula-oil" />

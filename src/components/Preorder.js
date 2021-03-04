@@ -88,7 +88,7 @@ function Preorder() {
       </p>
       <p className="quote">Made with meticulous care and abundant aloha.</p>
       <form onSubmit={handleSubmit}>
-        <p>Hualani Nourishing Body Butter</p>
+        <header>Hualani Nourishing Body Butter</header>
         <div className="form-control">
           <label>Name: </label>
           <input

@@ -11,7 +11,7 @@ function About() {
           Hualani Farms is a family owned organic farm in Maka'alae, on the
           verdant slope of Haleakala (Maui's "House of the Sun") surrounded by
           the boundless beauty of the Pacific Ocean, located approximately 3
-          miles south of Hāna, Maui, our farm lies at the culmination of one of
+          miles south of Hāna, our farm lies at the culmination of one of
           the most breathtaking drives to experience on Planet Earth, along the
           famous Hāna Highway, a stunningly beautiful journey of 52 miles of
           winding road following the rugged Hāna coastline, with 617 hairpin

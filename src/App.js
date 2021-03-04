@@ -27,7 +27,7 @@ function App() {
           </div>
         </Router>
         <p className="quote">
-          © 2021 Hualani Farms
+          © 2021 Hualani Farms LLC
         </p>
     </div>
   );
