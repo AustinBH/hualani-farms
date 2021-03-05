@@ -7,9 +7,6 @@ import photo16 from "../media/photo16.jpg";
 import photo17 from "../media/photo17.jpg";
 import photo18 from "../media/photo18.jpg";
 import photo19 from "../media/photo19.jpg";
-import photo20 from "../media/photo20.jpg";
-import photo21 from "../media/photo21.jpg";
-import photo22 from "../media/photo22.jpg";
 import { NavLink } from "react-router-dom";
 
 function Growing() {

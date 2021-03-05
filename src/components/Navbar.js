@@ -2,6 +2,16 @@ import logo from '../media/logo.svg';
 import { NavLink } from 'react-router-dom';
 
 function Navbar() {
+
+  const toggleMenu = () => {
+    const menuStatus = document.getElementById("hamburger-links");
+    if (menuStatus.style.display == "block") {
+      menuStatus.style.display = "none";
+    } else {
+      menuStatus.style.display = "block";
+    };
+  };
+
   return (
     <div className="navbar">
       <div className="logo">
@@ -10,16 +20,28 @@ function Navbar() {
         </NavLink>
       </div>
       <div className="links">
-        <button className="nav-button">
+        <div id="hamburger-links">
           <NavLink exact to="/about">
             About
           </NavLink>
-        </button>
-        <button className="nav-button">
           <NavLink exact to="/contact">
-            Contact Us
+            Contact
           </NavLink>
-        </button>
+          <NavLink exact to="/growing">
+            Growing
+          </NavLink>
+          <NavLink exact to="/future">
+            Future
+          </NavLink>
+          <NavLink exact to="/packaging">
+            Packaging
+          </NavLink>
+        </div>
+        <a className="icon" onClick={toggleMenu}>
+          <div className="bars"/>
+          <div className="bars"/>
+          <div className="bars"/>
+        </a>
       </div>
     </div>
   );
