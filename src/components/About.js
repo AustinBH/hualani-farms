@@ -33,7 +33,7 @@ function About() {
           soil available on the planet, with minimal impact on the earth.
         </p>
         <button className="nav-button">
-          <NavLink exact to="/farming">
+          <NavLink exact to="/farming" onClick={() => window.scroll(0, 0)}>
             FARMING IN HARMONY WITH NATURE
           </NavLink>
         </button>

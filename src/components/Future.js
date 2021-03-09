@@ -18,7 +18,7 @@ function Future() {
       <img src={photo20} alt="hana-sunrise" className="single-photo" />
       <p></p> {/* Bandaid needs more elegant fix */}
       <button className="nav-button">
-        <NavLink exact to="/contact">
+        <NavLink exact to="/contact" onClick={() => window.scroll(0, 0)}>
           WHERE TO FIND US
         </NavLink>
       </button>
@@ -46,7 +46,7 @@ function Future() {
       <img src={photo21} alt="farmers-market" />
       <p></p> {/* Bandaid need to properly space this later */}
       <button className="nav-button">
-        <NavLink exact to="/preorder">
+        <NavLink exact to="/preorder" onClick={() => window.scroll(0, 0)}>
           HEAVENLY HUALANI BODY BUTTER: PREORDER ONLINE NOW
         </NavLink>
       </button>

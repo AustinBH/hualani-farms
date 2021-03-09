@@ -42,7 +42,7 @@ function Preorder() {
         needs protection and nourishment.
       </p>
       <button className="nav-button">
-        <NavLink exact to="/packaging">
+        <NavLink exact to="/packaging" onClick={() => window.scroll(0, 0)}>
           Check out our environmentally intelligent packaging
         </NavLink>
       </button>

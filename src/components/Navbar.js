@@ -17,6 +17,7 @@ function Navbar() {
     if (menu.style.display == "block") {
       menu.style.display = "none";
     }
+    window.scroll(0,0);
   }
 
   return (

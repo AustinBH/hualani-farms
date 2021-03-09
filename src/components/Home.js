@@ -30,7 +30,7 @@ function Home() {
         -Carlo Petrini, founder of the Slow Food Movement.
       </p>
       <button className="nav-button">
-        <NavLink exact to="/about">
+        <NavLink exact to="/about" onClick={() => window.scroll(0,0)}>
           LEARN MORE ABOUT US
         </NavLink>
       </button>

@@ -76,7 +76,7 @@ function Growing() {
         Zinnias, and Cosmos
       </p>
       <button className="nav-button">
-        <NavLink exact to="/future">
+        <NavLink exact to="/future" onClick={() => window.scroll(0, 0)}>
           WHAT WE ARE GROWING FOR THE FUTURE
         </NavLink>
       </button>

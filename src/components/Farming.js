@@ -11,11 +11,11 @@ function Farming() {
         Nurtured by the gentle, tropical Hāna rain, refreshed by the gentle
         ocean breeze, and warmed by the Maui sunshine, Hualani Farms produces
         all of its tropical fruit, spices, and plants using environmentally
-        intelligent processes to ensure not only a beautiful harvest today, but a
-        healthy and sustainable yield well into the future.
+        intelligent processes to ensure not only a beautiful harvest today, but
+        a healthy and sustainable yield well into the future.
       </p>
       <div className="two-grid">
-        <img src={photo8} alt="meyer-lemon-blossoms"/>
+        <img src={photo8} alt="meyer-lemon-blossoms" />
         <img src={photo9} alt="blue-butterfly-pea-flower" />
       </div>
       <p>
@@ -28,7 +28,7 @@ function Farming() {
         respect for the aina ("land").
       </p>
       <button className="nav-button">
-        <NavLink exact to="/growing">
+        <NavLink exact to="/growing" onClick={() => window.scroll(0, 0)}>
           What's Growing Now
         </NavLink>
       </button>
