@@ -6,6 +6,9 @@ function Preorder() {
   const [state, setState] = useState({
     name: "",
     address: "",
+    city: "",
+    state: "",
+    zip: 0,
     jars: 0
   });
 
@@ -101,9 +104,30 @@ function Preorder() {
         <div className="form-control">
           <label>Shipping Address: </label>
           <input
-            type="text"
+            type="text-area"
             name="address"
             value={state.address}
+            onChange={handleInputChange}
+          />
+          <label>City: </label>
+          <input
+            type="text"
+            name="city"
+            value={state.city}
+            onChange={handleInputChange}
+          />
+          <label>State: </label>
+          <input
+            type=""
+            name="state"
+            value={state.city}
+            onChange={handleInputChange}
+          />
+          <label>ZIP Code: </label>
+          <input
+            type="number"
+            name="zip"
+            value={state.zip}
             onChange={handleInputChange}
           />
         </div>
