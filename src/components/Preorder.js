@@ -7,7 +7,7 @@ function Preorder() {
     name: "",
     address: "",
     city: "",
-    state: "",
+    state: "HI",
     zip: 0,
     jars: 0
   });
@@ -27,16 +27,14 @@ function Preorder() {
   return (
     <div>
       <h1>Hualani Nourishing Body Butter</h1>
-      <p>
-        Ingredients:
-        <ul style={{ textAlign: "left" }}>
-          <li>Coconut Oil</li>
-          <li>Cocoa Butter</li>
-          <li>Shea Butter</li>
-          <li>Marigold Flowers</li>
-          <li>Pikake Essential Oil</li>
-        </ul>
-      </p>
+      <p>Ingredients:</p>
+      <ul style={{ textAlign: "left" }}>
+        <li>Coconut Oil</li>
+        <li>Cocoa Butter</li>
+        <li>Shea Butter</li>
+        <li>Marigold Flowers</li>
+        <li>Pikake Essential Oil</li>
+      </ul>
       <p>
         Unlike lotions and creams, which contain water, body butters nourish and
         protect the skin by sealing in moisture and creating a barrier between

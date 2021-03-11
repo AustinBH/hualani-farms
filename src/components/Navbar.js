@@ -7,8 +7,10 @@ function Navbar() {
     const menuStatus = document.getElementById("hamburger-links");
     if (menuStatus.style.display == "block") {
       menuStatus.style.display = "none";
+      menuStatus.className = "";
     } else {
       menuStatus.style.display = "block";
+      menuStatus.className = "animated-menu";
     };
   };
 
@@ -16,6 +18,7 @@ function Navbar() {
     const menu = document.getElementById("hamburger-links");
     if (menu.style.display == "block") {
       menu.style.display = "none";
+      menu.className = "";
     }
     window.scroll(0,0);
   }
@@ -43,8 +46,8 @@ function Navbar() {
           <NavLink exact to="/growing" onClick={closeMenu}>
             Growing
           </NavLink>
-          <NavLink exact to="/future" onClick={closeMenu}>
-            Future
+          <NavLink exact to="/plans" onClick={closeMenu}>
+            Plans
           </NavLink>
           <NavLink exact to="/packaging" onClick={closeMenu}>
             Packaging

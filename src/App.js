@@ -4,7 +4,7 @@ import About from './components/About';
 import Home from './components/Home';
 import Farming from './components/Farming';
 import Growing from './components/Growing';
-import Future from './components/Future';
+import Plans from './components/Plans';
 import Preorder from './components/Preorder';
 import Navbar from './components/Navbar';
 import Contact from './components/Contact';
@@ -20,7 +20,7 @@ function App() {
             <Route path="/about" exact render={() => <About />} />
             <Route path="/farming" exact render={() => <Farming />} />
             <Route path="/growing" exact render={() => <Growing />} />
-            <Route path="/future" exact render={() => <Future />} />
+            <Route path="/plans" exact render={() => <Plans />} />
             <Route path="/preorder" exact render={() => <Preorder />} />
             <Route path="/contact" exact render={() => <Contact />} />
             <Route path="/packaging" exact render={() => <Packaging />} />

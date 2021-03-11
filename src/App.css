@@ -52,6 +52,14 @@
 
 #hamburger-links {
   display: none;
+  position: absolute;
+  right: -100px;
+  top: 170px;
+}
+
+.animated-menu {
+  -webkit-animation: menu-start 0.5s forwards;
+  animation: menu-start 0.5s forwards;
 }
 
 .links a {
@@ -142,6 +150,12 @@
   max-height: 50%;
 }
 
+@media only screen and (max-width: 500px) {
+  #hamburger-links a {
+    padding: 4px 6px;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -149,6 +163,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@keyframes menu-start {
+  100% {right:0};
+}
+
+@-webkit-keyframes menu-start {
+  100% {right:0};
 }
 
 @keyframes fade-in {

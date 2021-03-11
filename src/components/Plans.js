@@ -4,10 +4,11 @@ import photo22 from '../media/photo22.jpg';
 import { NavLink } from 'react-router-dom';
 
 
-function Future() {
+function Plans() {
 
   return (
     <div>
+      <h1>Why Small Farms Matter</h1>
       <p>
         Every morning as the sun rises over the mighty Pacific Ocean to greet
         the rich soil on our farm, we are asking ourselves the question "How can
@@ -66,4 +67,4 @@ function Future() {
   );
 }
 
-export default Future;
+export default Plans;
