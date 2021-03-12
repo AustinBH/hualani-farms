@@ -16,8 +16,8 @@ function Packaging() {
       <p>
         All of our packaging is recyclable and renewable. We use shipping boxes
         and materials made from 100% recycled post-consumer materials.
-      </p>
-      <p>
+        <br />
+        <br />
         Because farming with our hearts and our minds is what can, and will,
         make a difference in our world. Because planting a seed, tree, or an
         entire acre makes one an optimist. Because we are all blessed and

@@ -54,8 +54,10 @@ function Preorder() {
           Check out our environmentally intelligent packaging
         </NavLink>
       </button>
-      <p>Wellness properties:</p>
       <p>
+        Wellness properties:
+        <br />
+        <br />
         <b>Marigold Flowers -</b> have soothing, softening, and emollient
         properties. Widely used because of its anti-inflammatory and medicinal
         uses. Marigold helps tone the skin, making it look younger and more
@@ -63,19 +65,19 @@ function Preorder() {
         glycoproteins. It is very rich in Vitamin E or tocopherol, providing
         flavonoids that strengthen the skin against external aggressions in
         addition to having antioxidant and anti-aging properties.
-      </p>
-      <p>
+        <br />
+        <br />
         <b>Coconut Oil -</b> reduces inflammation and contains antimicrobial
         properties to protect skin. Contains medium chain fatty acids especially
         important for skin health.
-      </p>
-      <p>
+        <br />
+        <br />
         <b>Cocoa Butter -</b> helps to form a protective barrier over skin to
         hold in moisture. Is rich in natural plant compounds called
         phytochemicals that may improve blood flow to the skin and slow aging by
         protecting against the sun's harmful UV rays.
-      </p>
-      <p>
+        <br />
+        <br />
         <b>Shea Butter -</b> high concentrations of fatty acids and vitamins
         make shea butter an ideal cosmetic ingredient for softening skin. Shea
         butter comes from fat extracted from the nuts of the shea tree. It helps
@@ -83,16 +85,16 @@ function Preorder() {
         chemical compounds thought to deactivate collagen fiber destruction. It
         also helps promote cell regeneration, reducing the appearance of fine
         lines and wrinkles.
-      </p>
-      <p>
+        <br />
+        <br />
         <b>Pikake -</b> known as Hawaiian Jasmine. Contains therapeutic and
         aromatherapy benefits, including promoting self-confidence, optimism,
         and hormonal balance.
-      </p>
-      <p>
-        The rich volcanic soil, warm Maui sunshine, gentle misty
-        rain, and the mighty power of the Pacific Ocean all get folded into
-        every jar of Nourishing Hualani Body Butter.
+        <br />
+        <br />
+        The rich volcanic soil, warm Maui sunshine, gentle misty rain, and the
+        mighty power of the Pacific Ocean all get folded into every jar of
+        Nourishing Hualani Body Butter.
       </p>
       <form onSubmit={handleSubmit}>
         <header>Hualani Nourishing Body Butter</header>

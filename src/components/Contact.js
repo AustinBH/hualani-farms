@@ -7,17 +7,20 @@ function Contact() {
     <div>
       <div className="three-grid">
         <div>
-          <img src={photo25} alt="sunrise"/>
+          <img src={photo25} alt="sunrise" />
         </div>
         <div className="contact">
-          <img src={logo} alt="hualani-farms-logo"/>
+          <img src={logo} alt="hualani-farms-logo" />
         </div>
         <div>
-          <img src={photo26} alt="ocean"/>
+          <img src={photo26} alt="ocean" />
         </div>
       </div>
-      <p>Email: hualanifarms@gmail.com</p>
-      <p>Phone: (808) 748-4404</p>
+      <p>
+        Email: hualanifarms@gmail.com
+        <br />
+        Phone: (808) 748-4404
+      </p>
     </div>
   );
 }

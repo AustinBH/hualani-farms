@@ -47,8 +47,8 @@ function Growing() {
         <u>Native Hawaiian Plants</u> such as Hawaiian Sandalwood ("Iliahi"),
         Green Ti, Red Ti, Hawaiian Hibiscus ("Koki'o Ke'oke'o") - the only
         fragrant hibiscus, True Kamani
-      </p>
-      <p>
+        <br />
+        <br />
         <u>Other Trees and Varietals</u> - Maia (Apple Bananas), Sunrise Papaya,
         Mango, several varietals of Coco Palms and Coconuts, the majestic
         Rainbow Eucalyptus, Magnolia, and several varietals of Bamboo -
@@ -70,8 +70,8 @@ function Growing() {
         Herbs: Dill, Garlic Chives, Fennel, Basil, Oregano (Cuban and Italian),
         Cilantro, Chives, Pineapple Sage, Calendula, Rosemary, Lemon Thyme,
         English Lavender
-      </p>
-      <p>
+        <br />
+        <br />
         For the Butterflies and the Bees: Citrus Blossom, Red Sunflower,
         Zinnias, and Cosmos
       </p>
