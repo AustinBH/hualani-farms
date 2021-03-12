@@ -134,7 +134,18 @@
 }
 
 .form-control {
+  display: block;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+}
+
+.form-control label {
+  font-size: 16px;
+}
+
+.form-control input {
+  width: 200px;
 }
 
 .quote {
