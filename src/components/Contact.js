@@ -19,7 +19,7 @@ function Contact() {
       <p>
         Email: hualanifarms@gmail.com
         <br />
-        Phone: (808) 748-4404
+        Phone: (808) 758-4404
       </p>
     </div>
   );
