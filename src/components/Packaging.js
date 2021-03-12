@@ -1,5 +1,4 @@
 import photo23 from "../media/photo23.jpg";
-import photo24 from "../media/photo24.jpg";
 
 function Packaging() {
 
@@ -15,10 +14,9 @@ function Packaging() {
       </p>
       <img src={photo23} alt="koki-beach" />
       <p>
-        All of our packaging is recycleable and renewable. We use shipping boxes
+        All of our packaging is recyclable and renewable. We use shipping boxes
         and materials made from 100% recycled post-consumer materials.
       </p>
-      <img src={photo24} alt="buddha-with-lemons" />
       <p>
         Because farming with our hearts and our minds is what can, and will,
         make a difference in our world. Because planting a seed, tree, or an

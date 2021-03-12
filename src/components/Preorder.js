@@ -34,7 +34,7 @@ function Preorder() {
   return (
     <div>
       <h1>Hualani Nourishing Body Butter</h1>
-      <p>Ingredients:</p>
+      <p style={{ textAlign: "left", paddingLeft: "10px" }}>Ingredients:</p>
       <ul style={{ textAlign: "left" }}>
         <li>Coconut Oil</li>
         <li>Cocoa Butter</li>
@@ -56,45 +56,44 @@ function Preorder() {
       </button>
       <p>Wellness properties:</p>
       <p>
-        Marigold Flowers - have soothing, softening, and emollient properties.
-        Widely used because of its anti-inflammatory and medicinal uses.
-        Marigold helps tone the skin, making it look younger and more elastic.
-        Marigold also activates the production of collagen and glycoproteins. It
-        is very rich in Vitamin E or tocopherol, providing flavonoids that
-        strengthen the skin against external aggressions in addition to having
-        antioxidant and anti-aging properties.
+        <b>Marigold Flowers -</b> have soothing, softening, and emollient
+        properties. Widely used because of its anti-inflammatory and medicinal
+        uses. Marigold helps tone the skin, making it look younger and more
+        elastic. Marigold also activates the production of collagen and
+        glycoproteins. It is very rich in Vitamin E or tocopherol, providing
+        flavonoids that strengthen the skin against external aggressions in
+        addition to having antioxidant and anti-aging properties.
       </p>
       <p>
-        Coconut Oil - reduces inflammation and contains antimicrobial properties
-        to protect skin. Contains medium chain fatty acids especially important
-        for skin health.
+        <b>Coconut Oil -</b> reduces inflammation and contains antimicrobial
+        properties to protect skin. Contains medium chain fatty acids especially
+        important for skin health.
       </p>
       <p>
-        Cocoa Butter - helps to form a protective barrier over skin to hold in
-        moisture. Is rich in natural plant compounds called phytochemicals that
-        may improve blood flow to the skin and slow aging by protecting against
-        the sun's harmful UV rays.
+        <b>Cocoa Butter -</b> helps to form a protective barrier over skin to
+        hold in moisture. Is rich in natural plant compounds called
+        phytochemicals that may improve blood flow to the skin and slow aging by
+        protecting against the sun's harmful UV rays.
       </p>
       <p>
-        Shea Butter - high concentrations of fatty acids and vitamins make shea
-        butter an ideal cosmetic ingredient for softening skin. Shea butter
-        comes from fat extracted from the nuts of the shea tree. It helps boost
-        collagen production and contains triterpenes, naturally occurring
+        <b>Shea Butter -</b> high concentrations of fatty acids and vitamins
+        make shea butter an ideal cosmetic ingredient for softening skin. Shea
+        butter comes from fat extracted from the nuts of the shea tree. It helps
+        boost collagen production and contains triterpenes, naturally occurring
         chemical compounds thought to deactivate collagen fiber destruction. It
         also helps promote cell regeneration, reducing the appearance of fine
         lines and wrinkles.
       </p>
       <p>
-        Pikake - known as Hawaiian Jasmine. Contains therapeutic and
+        <b>Pikake -</b> known as Hawaiian Jasmine. Contains therapeutic and
         aromatherapy benefits, including promoting self-confidence, optimism,
         and hormonal balance.
       </p>
       <p>
-        The rich volcanic soils of the aina, warm Maui sunshine, gentle misty
+        The rich volcanic soil, warm Maui sunshine, gentle misty
         rain, and the mighty power of the Pacific Ocean all get folded into
         every jar of Nourishing Hualani Body Butter.
       </p>
-      <p className="quote">Made with meticulous care and abundant aloha.</p>
       <form onSubmit={handleSubmit}>
         <header>Hualani Nourishing Body Butter</header>
         <div className="form-control">
@@ -107,7 +106,7 @@ function Preorder() {
           />
         </div>
         <div className="form-control">
-          <label>Shipping Address: </label>
+          <label>Address: </label>
           <input
             type="text"
             name="address"

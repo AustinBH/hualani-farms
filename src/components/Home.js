@@ -34,7 +34,7 @@ function Home() {
           LEARN MORE ABOUT US
         </NavLink>
       </button>
-      <p></p> {/* Bandaid for now adjust later */}
+      <br/>
       <img src={photo4} alt="farm-mascot" />
       <p>Fritz, farm mascot</p>
     </div>

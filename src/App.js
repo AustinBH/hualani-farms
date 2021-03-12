@@ -13,22 +13,23 @@ import Packaging from './components/Packaging';
 function App() {
   return (
     <div className="app">
-        <Router>
-          <Navbar />
-          <div className="app-info">
-            <Route path="/" exact render={() => <Home />} />
-            <Route path="/about" exact render={() => <About />} />
-            <Route path="/farming" exact render={() => <Farming />} />
-            <Route path="/growing" exact render={() => <Growing />} />
-            <Route path="/plans" exact render={() => <Plans />} />
-            <Route path="/preorder" exact render={() => <Preorder />} />
-            <Route path="/contact" exact render={() => <Contact />} />
-            <Route path="/packaging" exact render={() => <Packaging />} />
-          </div>
-        </Router>
-        <p className="quote">
-          © 2021 Hualani Farms LLC
-        </p>
+      <Router>
+        <Navbar />
+        <div className="app-info">
+          <Route path="/" exact render={() => <Home />} />
+          <Route path="/about" exact render={() => <About />} />
+          <Route path="/farming" exact render={() => <Farming />} />
+          <Route path="/growing" exact render={() => <Growing />} />
+          <Route path="/plans" exact render={() => <Plans />} />
+          <Route path="/preorder" exact render={() => <Preorder />} />
+          <Route path="/contact" exact render={() => <Contact />} />
+          <Route path="/packaging" exact render={() => <Packaging />} />
+        </div>
+      </Router>
+      <p className="quote">
+        Made with meticulous care and abundant aloha.<br/>
+        © 2021 Hualani Farms LLC
+      </p>
     </div>
   );
 }
