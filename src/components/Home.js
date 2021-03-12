@@ -10,10 +10,10 @@ function Home() {
       <p>
         A family owned and operated organic farm, growing lush tropical fruit
         and exotic spices on the verdant slope of Maui's Haleakala volcano
-        ("House of the Sun"). "Hualani" means Heavenly Fruit. The
-        perfect combination of rich earth ("āina"), boundless sky ("lani"),
-        ocean breeze ("malanai"), and abundant Hāna rain creates the ideal
-        growing conditions to produce and share the bounty of our farm.
+        ("House of the Sun"). "Hualani" means Heavenly Fruit. The perfect
+        combination of rich earth ("āina"), boundless sky ("lani"), ocean breeze
+        ("malanai"), and abundant Hāna rain creates the ideal growing conditions
+        to produce and share the bounty of our farm.
       </p>
       <img src={photo1} alt="hana-sunrise" className="single-photo" />
       <div className="two-grid">
@@ -30,11 +30,11 @@ function Home() {
         -Carlo Petrini, founder of the Slow Food Movement.
       </p>
       <button className="nav-button">
-        <NavLink exact to="/about" onClick={() => window.scroll(0,0)}>
+        <NavLink exact to="/about" onClick={() => window.scroll(0, 0)}>
           LEARN MORE ABOUT US
         </NavLink>
       </button>
-      <br/>
+      <br />
       <img src={photo4} alt="farm-mascot" />
       <p>Fritz, farm mascot</p>
     </div>

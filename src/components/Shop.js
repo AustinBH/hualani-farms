@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { useState } from 'react';
 
-function Preorder() {
+function Shop() {
 
   const [state, setState] = useState({
     name: "",
@@ -96,8 +96,8 @@ function Preorder() {
         mighty power of the Pacific Ocean all get folded into every jar of
         Nourishing Hualani Body Butter.
       </p>
-      <form onSubmit={handleSubmit}>
-        <header>Hualani Nourishing Body Butter</header>
+      {/* <form onSubmit={handleSubmit}>
+        <header>Order Form:</header>
         <div className="form-control">
           <label>Name: </label>
           <input
@@ -198,9 +198,9 @@ function Preorder() {
             onChange={handleInputChange}
           />
         </div>
-      </form>
+      </form> */}
     </div>
   );
 }
 
-export default Preorder;
+export default Shop;

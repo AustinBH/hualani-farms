@@ -40,17 +40,17 @@ function Navbar() {
           <NavLink exact to="/about" onClick={closeMenu}>
             About
           </NavLink>
-          <NavLink exact to="/contact" onClick={closeMenu}>
-            Contact
-          </NavLink>
           <NavLink exact to="/growing" onClick={closeMenu}>
-            Growing
+            Farm
           </NavLink>
           <NavLink exact to="/plans" onClick={closeMenu}>
-            Plans
+            Future
           </NavLink>
-          <NavLink exact to="/packaging" onClick={closeMenu}>
-            Packaging
+          <NavLink exact to="/shop" onClick={closeMenu}>
+            Shop
+          </NavLink>
+          <NavLink exact to="/contact" onClick={closeMenu}>
+            Contact
           </NavLink>
         </div>
       </div>

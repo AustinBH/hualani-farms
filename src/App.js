@@ -5,7 +5,7 @@ import Home from './components/Home';
 import Farming from './components/Farming';
 import Growing from './components/Growing';
 import Plans from './components/Plans';
-import Preorder from './components/Preorder';
+import Shop from './components/Shop';
 import Navbar from './components/Navbar';
 import Contact from './components/Contact';
 import Packaging from './components/Packaging';
@@ -21,7 +21,7 @@ function App() {
           <Route path="/farming" exact render={() => <Farming />} />
           <Route path="/growing" exact render={() => <Growing />} />
           <Route path="/plans" exact render={() => <Plans />} />
-          <Route path="/preorder" exact render={() => <Preorder />} />
+          <Route path="/shop" exact render={() => <Shop />} />
           <Route path="/contact" exact render={() => <Contact />} />
           <Route path="/packaging" exact render={() => <Packaging />} />
         </div>

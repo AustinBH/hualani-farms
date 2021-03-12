@@ -47,8 +47,8 @@ function Plans() {
       <img src={photo21} alt="farmers-market" />
       <br/>
       <button className="nav-button">
-        <NavLink exact to="/preorder" onClick={() => window.scroll(0, 0)}>
-          HEAVENLY HUALANI BODY BUTTER: PREORDER ONLINE NOW
+        <NavLink exact to="/shop" onClick={() => window.scroll(0, 0)}>
+          HEAVENLY HUALANI BODY BUTTER
         </NavLink>
       </button>
       <p>
