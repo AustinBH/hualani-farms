@@ -35,6 +35,7 @@
   grid-template-rows: 50px 150px;
   overflow: hidden;
   position: fixed;
+  z-index: 2;
 }
 
 .logo {
@@ -159,6 +160,12 @@
 .small-single-photo {
   max-width: 50%;
   max-height: 50%;
+}
+
+.carousel-holder {
+  max-width: 80%;
+  margin: auto;
+  z-index: 1;
 }
 
 @media only screen and (max-width: 500px) {

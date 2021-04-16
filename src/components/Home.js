@@ -2,7 +2,13 @@ import photo1 from '../media/photo1.jpg';
 import photo2 from "../media/photo2.jpg";
 import photo3 from "../media/photo3.jpg";
 import photo4 from "../media/photo4.jpg";
+import photo27 from "../media/photo27.jpg";
+import photo28 from "../media/photo28.jpg";
+import photo29 from "../media/photo29.jpg";
+import photo30 from "../media/photo30.jpg";
 import { NavLink } from "react-router-dom";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 
 function Home() {
   return (
@@ -15,10 +21,22 @@ function Home() {
         ("malanai"), and abundant Hāna rain creates the ideal growing conditions
         to produce and share the bounty of our farm.
       </p>
-      <img src={photo1} alt="hana-sunrise" className="single-photo" />
-      <div className="two-grid">
-        <img src={photo3} alt="lemon" />
-        <img src={photo2} alt="passion-fruit-flower" />
+      <div className="carousel-holder">
+        <Carousel
+          infiniteLoop={true}
+          autoPlay={true}
+          showArrows={false}
+          showStatus={false}
+          showThumbs={false}
+        >
+          <img src={photo1} alt="hana-sunrise" />
+          <img src={photo3} alt="lemon" />
+          <img src={photo2} alt="passion-fruit-flower" />
+          <img src={photo27} alt="rainbow" />
+          <img src={photo28} alt="blossom-in-cup" />
+          <img src={photo29} alt="flower-on-tree" />
+          <img src={photo30} alt="leaf" />
+        </Carousel>
       </div>
       <p className="quote">
         <i>
