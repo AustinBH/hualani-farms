@@ -32,7 +32,7 @@ function Growing() {
         <u>Exotics/Spices</u> such as Nutmeg, Cinnamon, Cardamom, and the
         Vanilla Bean Orchid, a beautiful vine that produces the tasty vanilla
         bean much coveted by bakers. At Hualani Farms you will also find Ginger,
-        Turmeric (Olena), Soursoup, Surinam Cherry, Lilikoi (Passion Fruit),{" "}
+        Turmeric (Olena), Soursop, Surinam Cherry, Lilikoi (Passion Fruit),{" "}
         <a
           href="https://food.ndtv.com/weight-loss/blue-tea-all-you-need-to-know-about-this-herbal-tea-that-may-help-in-weight-loss-1957747"
           rel="noopener noreferrer"
