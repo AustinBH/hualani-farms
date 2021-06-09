@@ -29,7 +29,7 @@ function Farming() {
       </p>
       <button className="nav-button">
         <NavLink exact to="/growing" onClick={() => window.scroll(0, 0)}>
-          What's Growing Now
+          WHAT'S GROWING NOW
         </NavLink>
       </button>
     </div>
