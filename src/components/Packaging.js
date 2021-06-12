@@ -1,4 +1,3 @@
-import photo23 from "../media/photo23.jpg";
 
 function Packaging() {
 
@@ -12,7 +11,10 @@ function Packaging() {
         plastic waste in our oceans, threatening to irreparably damage healthy
         oceans and coral reefs.
       </p>
-      <img src={photo23} alt="koki-beach" />
+      <img
+        src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/packaging/photo23.jpg"
+        alt="koki-beach"
+      />
       <p>
         All of our packaging is recyclable and renewable. We use shipping boxes
         and materials made from 100% recycled post-consumer materials.

@@ -1,12 +1,3 @@
-import photo11 from "../media/photo11.jpg";
-import photo12 from "../media/photo12.jpg";
-import photo13 from "../media/photo13.jpg";
-import photo14 from "../media/photo14.jpg";
-import photo15 from "../media/photo15.jpg";
-import photo16 from "../media/photo16.jpg";
-import photo17 from "../media/photo17.jpg";
-import photo18 from "../media/photo18.jpg";
-import photo19 from "../media/photo19.jpg";
 import { NavLink } from "react-router-dom";
 
 function Growing() {
@@ -20,14 +11,26 @@ function Growing() {
         limes").
       </p>
       <div className="three-grid">
-        <img src={photo12} alt="honey-tangerines" />
-        <img src={photo11} alt="citrus-metal" />
-        <img src={photo13} alt="washtub-tangelos" />
+        <img
+          src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/growing/photo12.jpg"
+          alt="honey-tangerines"
+        />
+        <img
+          src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/growing/photo11.jpg"
+          alt="citrus-metal"
+        />
+        <img
+          src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/growing/photo13.jpg"
+          alt="washtub-tangelos"
+        />
       </div>
       <p>
         <u>Avocado Varietals</u> such as Malama, Ota, Yamagata, and Kahalu'u.
       </p>
-      <img src={photo14} alt="avocado-half" />
+      <img
+        src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/growing/photo14.jpg"
+        alt="avocado-half"
+      />
       <p>
         <u>Exotics/Spices</u> such as Nutmeg, Cinnamon, Cardamom, and the
         Vanilla Bean Orchid, a beautiful vine that produces the tasty vanilla
@@ -42,7 +45,10 @@ function Growing() {
         </a>
         .
       </p>
-      <img src={photo15} alt="lilikoi-flower" />
+      <img
+        src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/growing/photo15.jpg"
+        alt="lilikoi-flower"
+      />
       <p>
         <u>Native Hawaiian Plants</u> such as Hawaiian Sandalwood ("Iliahi"),
         Green Ti, Red Ti, Hawaiian Hibiscus ("Koki'o Ke'oke'o") - the only
@@ -55,9 +61,18 @@ function Growing() {
         Gracilius, Monastery and Malay Dwarf.
       </p>
       <div className="three-grid">
-        <img src={photo16} alt="banana-rack" />
-        <img src={photo17} alt="buddha" />
-        <img src={photo18} alt="awapuhi-ginger" />
+        <img
+          src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/growing/photo16.jpg"
+          alt="banana-rack"
+        />
+        <img
+          src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/growing/photo17.jpg"
+          alt="buddha"
+        />
+        <img
+          src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/growing/photo18.jpg"
+          alt="awapuhi-ginger"
+        />
       </div>
       <u>What's Growing in Our Garden?</u>
       <p>
@@ -65,7 +80,11 @@ function Growing() {
         Habanero, Hawaiian Chili Peppers), Kale, Tomatoes, Leeks, Arugula,
         Tomatillo, Pole Beans, and Strawberries!
       </p>
-      <img src={photo19} alt="strawberries" className="small-single-photo" />
+      <img
+        src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/growing/photo19.jpg"
+        alt="strawberries"
+        className="small-single-photo"
+      />
       <p>
         Herbs: Dill, Garlic Chives, Fennel, Basil, Oregano (Cuban and Italian),
         Cilantro, Chives, Pineapple Sage, Calendula, Rosemary, Lemon Thyme,

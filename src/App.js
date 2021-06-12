@@ -9,6 +9,7 @@ import Shop from './components/Shop';
 import Navbar from './components/Navbar';
 import Contact from './components/Contact';
 import Packaging from './components/Packaging';
+import Ingredients from './components/Ingredients';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/shop" exact render={() => <Shop />} />
           <Route path="/contact" exact render={() => <Contact />} />
           <Route path="/packaging" exact render={() => <Packaging />} />
+          <Route path="/ingredients" exact render={() => <Ingredients />} />
         </div>
       </Router>
       <p className="quote">

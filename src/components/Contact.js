@@ -1,19 +1,25 @@
-import logo from '../media/logo.svg';
-import photo25 from '../media/photo25.jpg';
-import photo26 from '../media/photo26.jpg';
 
 function Contact() {
   return (
     <div>
       <div className="three-grid">
         <div>
-          <img src={photo25} alt="sunrise" />
+          <img
+            src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/contact/photo25.jpg"
+            alt="sunrise"
+          />
         </div>
         <div className="contact">
-          <img src={logo} alt="hualani-farms-logo" />
+          <img
+            src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/logo/logo.svg"
+            alt="hualani-farms-logo"
+          />
         </div>
         <div>
-          <img src={photo26} alt="ocean" />
+          <img
+            src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/contact/photo26.jpg"
+            alt="ocean"
+          />
         </div>
       </div>
       <p>

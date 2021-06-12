@@ -1,6 +1,3 @@
-import photo5 from '../media/photo5.jpg';
-import photo6 from '../media/photo6.jpg';
-import photo7 from '../media/photo7.jpg';
 import { NavLink } from "react-router-dom";
 
 function About() {
@@ -20,9 +17,18 @@ function About() {
           4WD, preferably already covered in mud.
         </p>
         <div className="three-grid">
-          <img src={photo5} alt="gushing-waterfall" />
-          <img src={photo6} alt="double-rainbow" />
-          <img src={photo7} alt="big-island" />
+          <img
+            src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/about/photo5.jpg"
+            alt="gushing-waterfall"
+          />
+          <img
+            src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/about/photo6.jpg"
+            alt="double-rainbow"
+          />
+          <img
+            src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/about/photo7.jpg"
+            alt="big-island"
+          />
         </div>
         <p>
           We maintain a personal commitment to a carbon neutral 100% sustainable

@@ -1,4 +1,3 @@
-import logo from '../media/logo.svg';
 import { NavLink } from 'react-router-dom';
 
 function Navbar() {
@@ -27,7 +26,10 @@ function Navbar() {
     <div className="navbar">
       <div className="logo">
         <NavLink exact to="/" onClick={closeMenu}>
-          <img src={logo} alt="logo" />
+          <img
+            src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/logo/logo.svg"
+            alt="logo"
+          />
         </NavLink>
       </div>
       <div className="links">

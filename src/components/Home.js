@@ -1,11 +1,3 @@
-import photo1 from '../media/photo1.jpg';
-import photo2 from "../media/photo2.jpg";
-import photo3 from "../media/photo3.jpg";
-import photo4 from "../media/photo4.jpg";
-import photo27 from "../media/photo27.jpg";
-import photo28 from "../media/photo28.jpg";
-import photo29 from "../media/photo29.jpg";
-import photo30 from "../media/photo30.jpg";
 import { NavLink } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
@@ -29,13 +21,34 @@ function Home() {
           showStatus={false}
           showThumbs={false}
         >
-          <img src={photo1} alt="hana-sunrise" />
-          <img src={photo3} alt="lemon" />
-          <img src={photo2} alt="passion-fruit-flower" />
-          <img src={photo27} alt="rainbow" />
-          <img src={photo28} alt="blossom-in-cup" />
-          <img src={photo29} alt="flower-on-tree" />
-          <img src={photo30} alt="leaf" />
+          <img
+            src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/home/photo1.jpg"
+            alt="hana-sunrise"
+          />
+          <img
+            src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/home/photo3.jpg"
+            alt="lemon"
+          />
+          <img
+            src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/home/photo2.jpg"
+            alt="passion-fruit-flower"
+          />
+          <img
+            src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/home/photo27.jpg"
+            alt="rainbow"
+          />
+          <img
+            src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/home/photo28.jpg"
+            alt="blossom-in-cup"
+          />
+          <img
+            src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/home/photo29.jpg"
+            alt="flower-on-tree"
+          />
+          <img
+            src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/home/photo30.jpg"
+            alt="leaf"
+          />
         </Carousel>
       </div>
       <p className="quote">
@@ -52,9 +65,11 @@ function Home() {
           LEARN MORE ABOUT US
         </NavLink>
       </button>
-      <br />
-      <img src={photo4} alt="farm-mascot" />
-      <p>Fritz, farm mascot</p>
+      <p style={{ fontSize: "16px" }}>Fritz, farm mascot</p>
+      <img
+        src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/home/photo4.jpg"
+        alt="farm-mascot"
+      />
     </div>
   );
 }

@@ -1,6 +1,3 @@
-import photo8 from "../media/photo8.jpg";
-import photo9 from "../media/photo9.jpg";
-import photo10 from "../media/photo10.jpg";
 import { NavLink } from "react-router-dom";
 
 function Farming() {
@@ -15,14 +12,23 @@ function Farming() {
         a healthy and sustainable yield well into the future.
       </p>
       <div className="two-grid">
-        <img src={photo8} alt="meyer-lemon-blossoms" />
-        <img src={photo9} alt="blue-butterfly-pea-flower" />
+        <img
+          src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/farming/photo8.jpg"
+          alt="meyer-lemon-blossoms"
+        />
+        <img
+          src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/farming/photo9.jpg"
+          alt="blue-butterfly-pea-flower"
+        />
       </div>
       <p>
         The future of food is about the soil, about community, nutrition,
         wildlife, education, and collaboration.
       </p>
-      <img src={photo10} alt="mixed-citrus" />
+      <img
+        src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/farming/photo10.jpg"
+        alt="mixed-citrus"
+      />
       <p>
         Every plant grown on our farm is grown and nurtured with love and
         respect for the aina ("land").

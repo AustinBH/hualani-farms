@@ -1,6 +1,3 @@
-import photo20 from '../media/photo20.jpg';
-import photo21 from '../media/photo21.jpg';
-import photo22 from '../media/photo22.jpg';
 import { NavLink } from 'react-router-dom';
 
 
@@ -16,8 +13,12 @@ function Plans() {
         fragile island environment allowing us to care for the land and still
         sustainably feed our communities?"
       </p>
-      <img src={photo20} alt="hana-sunrise" className="single-photo" />
-      <br/>
+      <img
+        src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/plans/photo20.jpg"
+        alt="hana-sunrise"
+        className="single-photo"
+      />
+      <br />
       <button className="nav-button">
         <NavLink exact to="/contact" onClick={() => window.scroll(0, 0)}>
           WHERE TO FIND US
@@ -44,8 +45,11 @@ function Plans() {
         General Store, in the field below the Hāna Ranch Restaurant. Come out to
         the Hāna Farmers Market to support Hāna's hard-working local farmers.
       </p>
-      <img src={photo21} alt="farmers-market" />
-      <br/>
+      <img
+        src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/plans/photo21.jpg"
+        alt="farmers-market"
+      />
+      <br />
       <button className="nav-button">
         <NavLink exact to="/shop" onClick={() => window.scroll(0, 0)}>
           HEAVENLY HUALANI BODY BUTTER
@@ -62,7 +66,10 @@ function Plans() {
         batches and undergoes a month long triple filtration process to ensure a
         pure, beautiful product made with aloha.
       </p>
-      <img src={photo22} alt="calendula-oil" />
+      <img
+        src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/plans/photo22.jpg"
+        alt="calendula-oil"
+      />
     </div>
   );
 }
