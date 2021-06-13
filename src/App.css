@@ -20,6 +20,23 @@
   margin: auto;
 }
 
+.contact-links {
+  display: grid;
+  grid-template-columns: 44% 1fr;
+  align-items: right;
+  justify-content: right;
+  text-align: left;
+}
+
+.contact-links img {
+  margin-right: 5px;
+}
+
+.contact-links a {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .contact img {
   width: 500px;
 }
@@ -92,9 +109,8 @@
   padding: 10px 10px !important;
 }
 
-.twitter img {
+.small-icon {
   width: 43px;
-  border-radius: 1rem;
 }
 
 .links a:hover {
@@ -190,6 +206,10 @@
 @media only screen and (max-width: 500px) {
   #hamburger-links a {
     padding: 4px 6px;
+  }
+
+  .contact-links {
+    grid-template-columns: 30% 1fr;
   }
 }
 

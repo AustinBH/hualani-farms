@@ -42,9 +42,10 @@ function Navbar() {
         </a>
         <a className="twitter" href="" rel="noopener norefferer">
           <img
-            src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/logo/twit-logo.png"
+            className="small-icon"
+            src="https://image.flaticon.com/icons/png/512/1077/1077032.png"
             alt="twitter-logo"
-            longdesc="https://img-premium.flaticon.com/png/512/60/60580.png?token=exp=1623552708~hmac=961a91b05e207c140e1fe4ffd5759c3f"
+            longdesc="https://www.flaticon.com/packs/social-network-12"
           />
         </a>
         <a className="icon" onClick={toggleMenu}>

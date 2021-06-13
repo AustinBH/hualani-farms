@@ -22,11 +22,24 @@ function Contact() {
           />
         </div>
       </div>
-      <p>
-        Email: <a href="mailto:hualanifarms@gmail.com?subject=Questions">hualanifarms@gmail.com</a>
-        <br />
-        Phone: <a href="tel:+1808-758-4404">(808) 758-4404</a>
-      </p>
+      <div className="contact-links">
+        <img
+          className="small-icon"
+          src="https://image.flaticon.com/icons/png/512/1077/1077071.png"
+          alt="phone"
+          longdesc="https://www.flaticon.com/packs/social-network-12"
+        />
+        <a href="mailto:hualanifarms@gmail.com?subject=Questions">
+          hualanifarms@gmail.com
+        </a>
+        <img
+          className="small-icon"
+          src="https://image.flaticon.com/icons/png/512/1077/1077055.png"
+          alt="twitter-logo"
+          longdesc="https://www.flaticon.com/packs/social-network-12"
+        />
+        <a href="tel:+1808-758-4404">(808) 758-4404</a>
+      </div>
     </div>
   );
 }
