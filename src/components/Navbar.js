@@ -33,14 +33,24 @@ function Navbar() {
         </NavLink>
       </div>
       <div className="links">
-        <a className="insta" href="" rel="noopener noreferrer">
+        <a
+          className="insta"
+          href="https://www.instagram.com/hualanifarms/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/logo/insta-logo.webp"
             alt="instagram-logo"
             longdesc="https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_54,h_54,al_c,q_85,usm_0.66_1.00_0.01/01c3aff52f2a4dffa526d7a9843d46ea.webp"
           />
         </a>
-        <a className="twitter" href="" rel="noopener norefferer">
+        <a
+          className="twitter"
+          href="https://www.twitter.com/hualanifarms/"
+          rel="noopener norefferer"
+          target="_blank"
+        >
           <img
             className="small-icon"
             src="https://image.flaticon.com/icons/png/512/1077/1077032.png"
