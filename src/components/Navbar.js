@@ -47,7 +47,7 @@ function Navbar() {
         </a>
         <a
           className="twitter"
-          href="https://www.twitter.com/hualanifarms/"
+          href="https://www.twitter.com/FarmsHualani/"
           rel="noopener norefferer"
           target="_blank"
         >
