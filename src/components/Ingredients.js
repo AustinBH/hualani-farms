@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Ingredients() {
 
@@ -20,11 +20,11 @@ function Ingredients() {
           salty marine air. Body butters are best suited to skin that tends to
           be dry and that needs protection and nourishment.
         </p>
-        <button className="nav-button">
-          <NavLink exact to="/packaging" onClick={() => window.scroll(0, 0)}>
-            CHECK OUT OUR ENVIRONMENTALLY INTELLIGENT PACKAGING
-          </NavLink>
-        </button>
+          <Link exact to="/packaging" onClick={() => window.scroll(0, 0)}>
+            <button>
+              CHECK OUT OUR ENVIRONMENTALLY INTELLIGENT PACKAGING
+            </button>
+          </Link>
         <p>
           Wellness properties:
           <br />

@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 function Plans() {
@@ -19,11 +19,11 @@ function Plans() {
         className="single-photo"
       />
       <br />
-      <button className="nav-button">
-        <NavLink exact to="/contact" onClick={() => window.scroll(0, 0)}>
-          WHERE TO FIND US
-        </NavLink>
-      </button>
+        <Link exact to="/contact" onClick={() => window.scroll(0, 0)}>
+          <button>
+            WHERE TO FIND US
+          </button>
+        </Link>
       <p>
         Hualani Farms is a proud member of the{" "}
         <a
@@ -50,11 +50,11 @@ function Plans() {
         alt="farmers-market"
       />
       <br />
-      <button className="nav-button">
-        <NavLink exact to="/shop" onClick={() => window.scroll(0, 0)}>
-          HEAVENLY HUALANI BODY BUTTER
-        </NavLink>
-      </button>
+        <Link exact to="/shop" onClick={() => window.scroll(0, 0)}>
+          <button>
+            HEAVENLY HUALANI BODY BUTTER
+          </button>
+        </Link>
       <p>
         While we grow many varietals of fruit, spices, vegetables, and herbs on
         our farm, Hualani Farms only produces a single item available for sale

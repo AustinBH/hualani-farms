@@ -23,9 +23,9 @@ function Contact() {
         </div>
       </div>
       <p>
-        Email: hualanifarms@gmail.com
+        Email: <a href="mailto:hualanifarms@gmail.com?subject=Questions">hualanifarms@gmail.com</a>
         <br />
-        Phone: (808) 758-4404
+        Phone: <a href="tel:+1808-758-4404">(808) 758-4404</a>
       </p>
     </div>
   );

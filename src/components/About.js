@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function About() {
     return (
@@ -38,11 +38,11 @@ function About() {
           citrus, spices, vegetables, and herbs in some of the richest volcanic
           soil available on the planet, with minimal impact on the earth.
         </p>
-        <button className="nav-button">
-          <NavLink exact to="/farming" onClick={() => window.scroll(0, 0)}>
-            FARMING IN HARMONY WITH NATURE
-          </NavLink>
-        </button>
+          <Link exact to="/farming" onClick={() => window.scroll(0, 0)}>
+            <button>
+              FARMING IN HARMONY WITH NATURE
+            </button>
+          </Link>
       </div>
     );
 };

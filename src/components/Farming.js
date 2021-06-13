@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Farming() {
   return (
@@ -33,11 +33,11 @@ function Farming() {
         Every plant grown on our farm is grown and nurtured with love and
         respect for the aina ("land").
       </p>
-      <button className="nav-button">
-        <NavLink exact to="/growing" onClick={() => window.scroll(0, 0)}>
-          WHAT'S GROWING NOW
-        </NavLink>
-      </button>
+        <Link exact to="/growing" onClick={() => window.scroll(0, 0)}>
+          <button>
+            WHAT'S GROWING NOW
+          </button>
+        </Link>
     </div>
   );
 }

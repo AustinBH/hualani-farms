@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Growing() {
   return (
@@ -94,11 +94,11 @@ function Growing() {
         For the Butterflies and the Bees: Citrus Blossom, Red Sunflower,
         Zinnias, and Cosmos
       </p>
-      <button className="nav-button">
-        <NavLink exact to="/plans" onClick={() => window.scroll(0, 0)}>
-          WHY SMALL FARMS MATTER
-        </NavLink>
-      </button>
+        <Link exact to="/plans" onClick={() => window.scroll(0, 0)}>
+          <button>
+            WHY SMALL FARMS MATTER
+          </button>
+        </Link>
     </div>
   );
 }

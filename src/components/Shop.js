@@ -1,5 +1,5 @@
 import Card from './Card';
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useState } from 'react';
 
 function Shop() {
@@ -34,13 +34,18 @@ function Shop() {
 
   return (
     <div>
-      {/* <Card name="" img={}/> */}
+      <div className="card-holder">
+        {/* <Card name="" img="" />
+        <Card name="" img="" />
+        <Card name="" img="" />
+        <Card name="" img="" /> */}
+      </div>
       <p>New Products Coming Soon!</p>
-      <button className="nav-button">
-        <NavLink exact to="/ingredients" onClick={() => window.scroll(0, 0)}>
-          INGREDIENTS
-        </NavLink>
-      </button>
+        <Link exact to="/ingredients" onClick={() => window.scroll(0, 0)}>
+          <button>
+            INGREDIENTS
+          </button>
+        </Link>
     </div>
   );
 }

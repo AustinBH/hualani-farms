@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import About from './components/About';
 import Home from './components/Home';
 import Farming from './components/Farming';
@@ -17,20 +17,40 @@ function App() {
       <Router>
         <Navbar />
         <div className="app-info">
-          <Route path="/" exact render={() => <Home />} />
-          <Route path="/about" exact render={() => <About />} />
-          <Route path="/farming" exact render={() => <Farming />} />
-          <Route path="/growing" exact render={() => <Growing />} />
-          <Route path="/plans" exact render={() => <Plans />} />
-          <Route path="/shop" exact render={() => <Shop />} />
-          <Route path="/contact" exact render={() => <Contact />} />
-          <Route path="/packaging" exact render={() => <Packaging />} />
-          <Route path="/ingredients" exact render={() => <Ingredients />} />
+          <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/farming">
+              <Farming />
+            </Route>
+            <Route path="/growing">
+              <Growing />
+            </Route>
+            <Route path="/plans">
+              <Plans />
+            </Route>
+            <Route path="/shop">
+              <Shop />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+            <Route path="/packaging">
+              <Packaging />
+            </Route>
+            <Route path="/ingredients">
+              <Ingredients />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
         </div>
       </Router>
       <p className="quote">
-        Made with meticulous care and abundant aloha.<br/>
-        © 2021 Hualani Farms LLC
+        Made with meticulous care and abundant aloha.
+        <br />© 2021 Hualani Farms LLC
       </p>
     </div>
   );

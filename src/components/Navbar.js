@@ -33,6 +33,18 @@ function Navbar() {
         </NavLink>
       </div>
       <div className="links">
+        <a className="insta" href="" rel="noopener noreferrer">
+          <img
+            src="https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_54,h_54,al_c,q_85,usm_0.66_1.00_0.01/01c3aff52f2a4dffa526d7a9843d46ea.webp"
+            alt="instagram-logo"
+          />
+        </a>
+        <a className="twitter" href="" rel="noopener norefferer">
+          <img
+            src="https://img-premium.flaticon.com/png/512/60/60580.png?token=exp=1623552708~hmac=961a91b05e207c140e1fe4ffd5759c3f"
+            alt="twitter-logo"
+          />
+        </a>
         <a className="icon" onClick={toggleMenu}>
           <div className="bars" />
           <div className="bars" />

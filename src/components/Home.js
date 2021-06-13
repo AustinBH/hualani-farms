@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
@@ -60,11 +60,11 @@ function Home() {
         </i>{" "}
         -Carlo Petrini, founder of the Slow Food Movement.
       </p>
-      <button className="nav-button">
-        <NavLink exact to="/about" onClick={() => window.scroll(0, 0)}>
-          LEARN MORE ABOUT US
-        </NavLink>
-      </button>
+        <Link exact to="/about" onClick={() => window.scroll(0, 0)}>
+          <button>
+            LEARN MORE ABOUT US
+          </button>
+        </Link>
       <p style={{ fontSize: "16px" }}>Fritz, farm mascot</p>
       <img
         src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/home/photo4.jpg"
