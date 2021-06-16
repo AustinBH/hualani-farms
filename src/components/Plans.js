@@ -19,7 +19,7 @@ function Plans() {
         className="single-photo"
       />
       <br />
-        <Link exact to="/contact" onClick={() => window.scroll(0, 0)}>
+        <Link to="/contact" onClick={() => window.scroll(0, 0)}>
           <button>
             WHERE TO FIND US
           </button>
@@ -50,7 +50,7 @@ function Plans() {
         alt="farmers-market"
       />
       <br />
-        <Link exact to="/shop" onClick={() => window.scroll(0, 0)}>
+        <Link to="/shop" onClick={() => window.scroll(0, 0)}>
           <button>
             HEAVENLY HUALANI BODY BUTTER
           </button>

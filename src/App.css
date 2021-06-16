@@ -185,19 +185,38 @@
 
 .card-holder {
   display: grid;
-  grid-template: 
-    "a a a"
-    "b c c"
-    "b c c" / 1fr 1fr 1fr;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  grid-template-columns: repeat(3, [col-start] 1fr);
 }
 
 .card {
-  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 80%;
   border-style: solid;
-  border-color: #417DB0
+  border-color: #417DB0;
+  border-radius: 10px;
+}
+
+.card-img {
+  max-height: 200px;
+}
+
+.cart-button {
+  padding: .5em 1em .5em;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+  font-size: medium;
+}
+
+.ingredients {
+  font-size: large;
 }
 
 @media only screen and (max-width: 500px) {
@@ -224,6 +243,10 @@
 
   .carousel-holder {
     max-width: 100%;
+  }
+
+  .card-holder {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -277,6 +300,7 @@ img {
 }
 
 button {
+  max-width: 80%;
   padding: 1em 1.5em 1em;
   border-radius: .5rem;
   color: black;

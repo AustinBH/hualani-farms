@@ -3,32 +3,30 @@ import { Link } from 'react-router-dom';
 function Ingredients() {
 
     return (
-      <div>
+      <div className="ingredients">
         <h1>Hualani Nourishing Body Butter</h1>
-        <p style={{ textAlign: "left", paddingLeft: "10px" }}>Ingredients:</p>
-        <ul style={{ textAlign: "left" }}>
-          <li>Coconut Oil</li>
-          <li>Cocoa Butter</li>
-          <li>Shea Butter</li>
-          <li>Marigold Flowers</li>
-          <li>Pikake Essential Oil</li>
-        </ul>
+        <p>
+          The rich volcanic soil, warm Maui sunshine, gentle misty rain, and the
+          mighty power of the Pacific Ocean all get folded into every jar of
+          Nourishing Hualani Body Butter. Each batch of our Body Butters
+          contain:{" "}
+          <i>Marigold Flowers, Coconut Oil, Cocoa Butter, and Shea Butter</i>
+        </p>
         <p>
           Unlike lotions and creams, which contain water, body butters nourish
           and protect the skin by sealing in moisture and creating a barrier
           between the skin and the elements such as strong Maui sunshine, and
           salty marine air. Body butters are best suited to skin that tends to
-          be dry and that needs protection and nourishment.
+          be dry and that needs protection and nourishment. The rich volcanic
+          soil, warm Maui sunshine, gentle misty rain, and the mighty power of
+          the Pacific Ocean all get folded into every jar of Nourishing Hualani
+          Body Butter.
         </p>
-          <Link exact to="/packaging" onClick={() => window.scroll(0, 0)}>
-            <button>
-              CHECK OUT OUR ENVIRONMENTALLY INTELLIGENT PACKAGING
-            </button>
-          </Link>
+        <Link to="/packaging" onClick={() => window.scroll(0, 0)}>
+          <button>CHECK OUT OUR ENVIRONMENTALLY INTELLIGENT PACKAGING</button>
+        </Link>
+        <h3>Wellness properties:</h3>
         <p>
-          Wellness properties:
-          <br />
-          <br />
           <b>Marigold Flowers -</b> have soothing, softening, and emollient
           properties. Widely used because of its anti-inflammatory and medicinal
           uses. Marigold helps tone the skin, making it look younger and more
@@ -56,16 +54,6 @@ function Ingredients() {
           occurring chemical compounds thought to deactivate collagen fiber
           destruction. It also helps promote cell regeneration, reducing the
           appearance of fine lines and wrinkles.
-          <br />
-          <br />
-          <b>Pikake -</b> known as Hawaiian Jasmine. Contains therapeutic and
-          aromatherapy benefits, including promoting self-confidence, optimism,
-          and hormonal balance.
-          <br />
-          <br />
-          The rich volcanic soil, warm Maui sunshine, gentle misty rain, and the
-          mighty power of the Pacific Ocean all get folded into every jar of
-          Nourishing Hualani Body Butter.
         </p>
       </div>
     );

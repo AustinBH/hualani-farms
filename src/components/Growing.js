@@ -94,7 +94,7 @@ function Growing() {
         For the Butterflies and the Bees: Citrus Blossom, Red Sunflower,
         Zinnias, and Cosmos
       </p>
-        <Link exact to="/plans" onClick={() => window.scroll(0, 0)}>
+        <Link to="/plans" onClick={() => window.scroll(0, 0)}>
           <button>
             WHY SMALL FARMS MATTER
           </button>

@@ -25,7 +25,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="logo">
-        <NavLink exact to="/" onClick={closeMenu}>
+        <NavLink to="/" onClick={closeMenu}>
           <img
             src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/logo/logo.svg"
             alt="logo"
@@ -42,7 +42,7 @@ function Navbar() {
           <img
             src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/logo/insta-logo.webp"
             alt="instagram-logo"
-            longdesc="https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_54,h_54,al_c,q_85,usm_0.66_1.00_0.01/01c3aff52f2a4dffa526d7a9843d46ea.webp"
+            longdesc="https://www.flaticon.com/packs/social-network-12"
           />
         </a>
         <a
@@ -64,19 +64,19 @@ function Navbar() {
           <div className="bars" />
         </a>
         <div id="hamburger-links">
-          <NavLink exact to="/about" onClick={closeMenu}>
+          <NavLink to="/about" onClick={closeMenu}>
             About
           </NavLink>
-          <NavLink exact to="/growing" onClick={closeMenu}>
+          <NavLink to="/growing" onClick={closeMenu}>
             Farm
           </NavLink>
-          <NavLink exact to="/plans" onClick={closeMenu}>
+          <NavLink to="/plans" onClick={closeMenu}>
             Future
           </NavLink>
-          <NavLink exact to="/shop" onClick={closeMenu}>
+          <NavLink to="/shop" onClick={closeMenu}>
             Shop
           </NavLink>
-          <NavLink exact to="/contact" onClick={closeMenu}>
+          <NavLink to="/contact" onClick={closeMenu}>
             Contact
           </NavLink>
         </div>

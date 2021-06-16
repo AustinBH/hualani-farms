@@ -38,7 +38,7 @@ function About() {
           citrus, spices, vegetables, and herbs in some of the richest volcanic
           soil available on the planet, with minimal impact on the earth.
         </p>
-          <Link exact to="/farming" onClick={() => window.scroll(0, 0)}>
+          <Link to="/farming" onClick={() => window.scroll(0, 0)}>
             <button>
               FARMING IN HARMONY WITH NATURE
             </button>

@@ -1,3 +1,4 @@
 # Hualani Farms Primary Frontend
 
-    - Used as the primary frontend for Hualani Farms website
+    - Frontend of Hualani Farms website
+    - Online store only selling body butter products for conceivable future

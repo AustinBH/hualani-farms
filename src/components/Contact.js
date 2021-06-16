@@ -25,18 +25,18 @@ function Contact() {
       <div className="contact-links">
         <img
           className="small-icon"
-          src="https://image.flaticon.com/icons/png/512/1077/1077071.png"
-          alt="phone"
-          longdesc="https://www.flaticon.com/packs/social-network-12"
+          src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/logo/email_icon.png"
+          alt="email"
+          longdesc="Image found in https://www.flaticon.com/packs/social-network-12"
         />
         <a href="mailto:hualanifarms@gmail.com?subject=Questions">
           hualanifarms@gmail.com
         </a>
         <img
           className="small-icon"
-          src="https://image.flaticon.com/icons/png/512/1077/1077055.png"
-          alt="twitter-logo"
-          longdesc="https://www.flaticon.com/packs/social-network-12"
+          src="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/logo/phone_icon.png"
+          alt="phone"
+          longdesc="Image found in https://www.flaticon.com/packs/social-network-12"
         />
         <a href="tel:+1808-758-4404">(808) 758-4404</a>
       </div>

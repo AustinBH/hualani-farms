@@ -33,7 +33,7 @@ function Farming() {
         Every plant grown on our farm is grown and nurtured with love and
         respect for the aina ("land").
       </p>
-        <Link exact to="/growing" onClick={() => window.scroll(0, 0)}>
+        <Link to="/growing" onClick={() => window.scroll(0, 0)}>
           <button>
             WHAT'S GROWING NOW
           </button>
