@@ -40,7 +40,7 @@ function Shop() {
           name="Signature Scent"
           img="https://hualani-farms-bucket.s3.us-west-2.amazonaws.com/cards/original_scent.jpg"
           info="Our Signature Scent has top notes of fresh lavender and wild harvested coastal sea grasses found growing near our farm on the beaches at Koki and Hamoa. A light scent embodies the sprit of aloha and helps alleviate stress."
-          inStock={true}
+          inStock={false}
         />
         <Card
           name="Summer Breeze"

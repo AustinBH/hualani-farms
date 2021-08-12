@@ -206,6 +206,12 @@
   padding: .5em 1em .5em;
 }
 
+.disabled {
+  background-color: #81b69d;
+  border-color: #81b69d;
+  cursor: default;
+}
+
 .hide {
   display: none;
 }
